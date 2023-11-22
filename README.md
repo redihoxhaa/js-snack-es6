@@ -37,4 +37,6 @@ Usiamo i nuovi metodi degli array foreach o filter.
 
 - SNACK 2 -  Creiamo il nostro array di oggetti nel file JS con 5 elemnenti da 3 keys ciascuno. Settiamo solo il valore del nome, mentre il resto lo settiamo a "0". Andiamo ad inizializzare un ciclo forEach che andrà a pescare tutti gli elementi del nostro array. Riassegniamo i valori alle key interessate con la funzione `Math.floor(Math.random())` all'interno del ciclo. Andiamo ad inizializzare un ciclo Map con il quale andiamo ad estrapolare nome e falli subiti e li assegniamo in un nuovo array. Stampiamo il nuovo array.
 
-- SNACK 3 -
+---
+
+- SNACK 3 - Scriviamo una funzione con 3 argomenti `myFunction(arr, min, max)` dove **arr** rappresenta l'array di input, **min** e **max** rappresentano l'intervallo degli indici estremi esclusi, dei quali dobbiamo inserire il contenuto nel nuovo array. Per fare questo dobbiamo possiamo usare un _forEach_ oppure un _Filter_. Indipendetemente dal quale scegliamo di utilizzare, andremo ad inserire un controllo condizionale per il quale se l'indice dell'elemento è maggiore di **min** e minore di **max**, il nostro return sarà true. Per comodità useremo un ciclo _Filter_. Andiamo a stampare il nostro nuovo array in console.
