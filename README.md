@@ -33,6 +33,8 @@ Usiamo i nuovi metodi degli array foreach o filter.
 
 - SNACK 1 - Partiamo con la creazione del nostro array di oggetti nel nostro file JS. Decidiamo di crearne 5 con nome e peso diversi tra di loro. Creaimo un div nell'HTML dentro il nostro main con classe **main-container**, che andiamo a selezionare nel file JS tramite querySelector, dichiarandolo in una costante **divContainer**. Inizializziamo un ciclo Map dentro una variabile **weightList** per selezionare gli oggetti degli array in una variabile **element**. Dentro il ciclo andiamo a salvare dichiarare variabile omonima alla key che ci interessa, attraverso la destrutturazione. In questo caso avremo `const {peso} = element`, il cui valore sarà il valore della key omonima. Usiamo il metodo _Math.min(...weightList)_ per andare ad estrapolare il peso minore dalla lista di elementi del nuovo array. Per riassociare quel peso alla bici selezionata inizializziamo un ciclo **forEach** nel quale andiamo a ciclare tutti gli elementi dell'array iniziale. Dichiariamo una condizione per la quale se la variabile che contiene il peso minore, matcha con il valore della key **peso** di un qualsiasi elemento durante il ciclo, verrà stampato nell'HTML anche il valore della chiave **nome** di quell'elemento. Sfruttiamo anche il fatto che il ciclo forEach non può essere fermato, per stampare più biciclette se queste hanno uguale peso.
 
-- SNACK 2 -
+----
+
+- SNACK 2 -  Creiamo il nostro array di oggetti nel file JS con 5 elemnenti da 3 keys ciascuno. Settiamo solo il valore del nome, mentre il resto lo settiamo a "0". Andiamo ad inizializzare un ciclo forEach che andrà a pescare tutti gli elementi del nostro array. Riassegniamo i valori alle key interessate con la funzione `Math.floor(Math.random())` all'interno del ciclo. Andiamo ad inizializzare un ciclo Filter con il quale andiamo ad estrapolare nome e falli subiti e li assegniamo in un nuovo array. Stampiamo il nuovo array.
 
 - SNACK 3 -
