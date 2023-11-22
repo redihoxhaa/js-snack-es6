@@ -35,6 +35,6 @@ Usiamo i nuovi metodi degli array foreach o filter.
 
 ----
 
-- SNACK 2 -  Creiamo il nostro array di oggetti nel file JS con 5 elemnenti da 3 keys ciascuno. Settiamo solo il valore del nome, mentre il resto lo settiamo a "0". Andiamo ad inizializzare un ciclo forEach che andrà a pescare tutti gli elementi del nostro array. Riassegniamo i valori alle key interessate con la funzione `Math.floor(Math.random())` all'interno del ciclo. Andiamo ad inizializzare un ciclo Filter con il quale andiamo ad estrapolare nome e falli subiti e li assegniamo in un nuovo array. Stampiamo il nuovo array.
+- SNACK 2 -  Creiamo il nostro array di oggetti nel file JS con 5 elemnenti da 3 keys ciascuno. Settiamo solo il valore del nome, mentre il resto lo settiamo a "0". Andiamo ad inizializzare un ciclo forEach che andrà a pescare tutti gli elementi del nostro array. Riassegniamo i valori alle key interessate con la funzione `Math.floor(Math.random())` all'interno del ciclo. Andiamo ad inizializzare un ciclo Map con il quale andiamo ad estrapolare nome e falli subiti e li assegniamo in un nuovo array. Stampiamo il nuovo array.
 
 - SNACK 3 -
